@@ -1,6 +1,6 @@
 import { AppDataSource } from "@shared/typeorm/data-source";
 import { Repository } from "typeorm";
-import Artigo from "../typeorm/entities/artigos";
+import Artigo from "../entities/artigos";
 
 export default class ArtigoRepository {
   private ormRepository: Repository<Artigo>;
